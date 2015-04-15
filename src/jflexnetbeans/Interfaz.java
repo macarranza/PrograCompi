@@ -179,11 +179,26 @@ public class Interfaz extends javax.swing.JFrame {
                 case ERROR:
                     resultado+="Error, símbolo no reconocido \n";
                     break;
-                case ID: case INT:
+                case INT:
+                    resultado+="TOKEN: "+token+" "+lexer.lexeme+"\n";
+                        break; 
+                case ID:
+                    resultado+="TOKEN: "+token+" "+lexer.lexeme+"\n";
+                    break;               
+               
+                case IDVAR: 
+                    resultado+="TOKEN: "+token+" "+lexer.lexeme+"\n";
+                    break;
+                
+                 case IDARRAY: 
+                    resultado+="TOKEN: "+token+" "+lexer.lexeme+"\n";
+                    break;
+               case IDHASH:
                     resultado+="TOKEN: "+token+" "+lexer.lexeme+"\n";
                     break;
                 default:
                     resultado+="TOKEN: "+token+"\n";
+                 
             }
         }
         

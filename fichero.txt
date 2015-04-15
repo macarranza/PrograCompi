@@ -1,1 +1,1 @@
-me pica un huevo*3
+fun alergia($var){@myvar = 5}

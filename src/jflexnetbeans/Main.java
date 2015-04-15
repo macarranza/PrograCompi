@@ -18,7 +18,7 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       String path = "C:/Users/Marvin/Documents/NetBeansProjects/JFlexNetBeans/src/jflexnetbeans/Lexer.flex";
+       String path = "/home/esteban/NetBeansProjects/PrograCompi/PrograCompi/src/jflexnetbeans/Lexer.flex";
        generarLexer(path);
     }
     
