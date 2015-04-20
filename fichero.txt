@@ -1,1 +1,1 @@
-fun alergia($var){@myvar = 5}
+& && 'h'
